@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="container">
 
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -26,37 +26,58 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Shoes</a>
-                        <a class="nav-link" href="#">Backpack</a>
-                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Subscriber</a>
+                        <a class="nav-link" href="#shoes">Shoes</a>
+                        <a class="nav-link" href="#backpack">Backpack</a>
+                        <a class="nav-link" href="#subscriber" tabindex="-1" aria-disabled="true">Subscriber</a>
                     </div>
                 </div>
             </div>
         </nav>
 
+    </header>
+
+    <main class="container">
+
         <!-- Carousel -->
 
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <section class="mt-5">
+        
+        <div id="carouselExampleControls" class="carousel slide panda-slider" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div class="row">
-                        <div class="col-md-7"></div>
+                    <div class="row d-flex align-items-center p-3">
+                        <div class="col-md-7">
+                        <h1>Mega LCD TV For SportsMega LCD TV For Sports</h1>
+                        <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
+                        <h3>$1200</h3>
+                        <button class="btn btn-primary">Buy Now >></button>
+                        </div>
                         <div class="col-md-5">
                             <img src="images/banner-images/tv.png" class="d-block w-75" alt="...">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-7"></div>
+                    <div class="row d-flex align-items-center p-3">
+                        <div class="col-md-7">
+                        <h1>Cool Dude Headphone</h1>
+                        <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
+                        <h3>$420</h3>
+                        <button class="btn btn-primary">Buy Now >></button>
+                        </div>
                         <div class="col-md-5">
                             <img src="images/banner-images/headphone.png" class="d-block w-75" alt="...">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row">
-                        <div class="col-md-7"></div>
+                    <div class="row d-flex align-items-center p-3">
+                        <div class="col-md-7">
+                        <h1>X-Box for your living room</h1>
+                        <p>This is the best x-box in the world for people who just want to waste time in front of fake Sports</p>
+                        <h3>$600</h3>
+                        <button class="btn btn-primary">Buy Now >></button>
+                        </div>
                         <div class="col-md-5">
                             <img src="images/banner-images/xbox.png" class="d-block w-75" alt="...">
                         </div>
@@ -73,28 +94,24 @@
             </a>
         </div>
 
-
-    </header>
-
-    <main class="container">
-
+        </section>
 
         <section class="container overflow-hidden mt-5">
-            <div class="row gx-5">
+            <div class="row gx-7">
                 <div class="col">
-                    <div class="p-3 rounded bg-primary d-flex justify-content-around align-items-center">
+                    <div class="p-3 mb-2 bg-primary d-flex justify-content-around align-items-center categories">
                         <h1 class="text-white">Watch</h1>
                         <img src="images/categories/watch.png" alt="">
                     </div>
                 </div>
                 <div class="col">
-                    <div class="p-3 rounded bg-success d-flex justify-content-around align-items-center">
+                    <div class="p-3 mb-2 bg-success d-flex justify-content-around align-items-center categories">
                         <h1 class="text-white">Beg</h1>
                         <img src="images/categories/bag.png" alt="">
                     </div>
                 </div>
                 <div class="col">
-                    <div class="p-3 rounded bg-danger d-flex justify-content-around align-items-center">
+                    <div class="p-3 mb-2 bg-danger d-flex justify-content-around align-items-center categories">
                         <h1 class="text-white">Shoes</h1>
                         <img src="images/categories/shoes.png" alt="">
                     </div>
@@ -104,39 +121,39 @@
 
         <!-- Shoes Section -->
 
-        <section class="mt-5">
+        <section id="shoes" class="mt-5">
             <h3> Shoes</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="card h-100 shadow">
+                    <div class="card panda-card h-100 shadow">
                         <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Supply 350</h5>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional.</p>
+                            to additional.</p>
                         </div>
-                        <h3>$120</h3>
-                        <div class="card-footer">
+                        <div class="card-footer panda-card-footer">
+                            <h3>$120</h3>
                             <button type="button" class="btn btn-primary">Order Now >></button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 shadow">
+                    <div class="card panda-card h-100 shadow">
                         <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Nike 360</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional
                                 content. </p>
                         </div>
-                        <h3>$320</h3>
-                        <div class="card-footer">
+                        <div class="card-footer panda-card-footer">
+                            <h3>$320</h3>
                             <button type="button" class="btn btn-primary">Order Now >></button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 shadow">
+                    <div class="card panda-card h-100 shadow">
                         <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Red Airmax</h5>
@@ -144,8 +161,8 @@
                                 additional content. This card has even longer content than the first to show that equal
                                 height action.</p>
                         </div>
-                        <h3>$350</h3>
-                        <div class="card-footer">
+                        <div class="card-footer panda-card-footer">
+                            <h3>$350</h3>
                             <button type="button" class="btn btn-primary">Order Now >></button>
                         </div>
                     </div>
@@ -156,11 +173,11 @@
 
         <!-- Bags Section -->
 
-        <section class="mt-5">
+        <section id="backpack" class="mt-5">
             <h3> Bagpacks</h3>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="card h-100 shadow">
+                    <div class="card panda-card h-100 shadow">
                         <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Red Laltu Bag</h5>
@@ -168,13 +185,13 @@
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in
                                 to additional.</p>
                         </div>
-                        <div class="card-footer">
+                        <div class="card-footer panda-card-footer">
                             <button type="button" class="btn btn-primary">Order Now >></button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 shadow">
+                    <div class="card panda-card h-100 shadow">
                         <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Blue Niltu Bag</h5>
@@ -182,13 +199,13 @@
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional
                                 content. </p>
                         </div>
-                        <div class="card-footer">
+                        <div class="card-footer panda-card-footer">
                             <button type="button" class="btn btn-primary">Order Now >></button>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 shadow">
+                    <div class="card panda-card h-100 shadow">
                         <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Black Kaltu Bag</h5>
@@ -197,7 +214,7 @@
                                 additional content. This card has even longer content than the first to show that equal
                                 height action.</p>
                         </div>
-                        <div class="card-footer">
+                        <div class="card-footer panda-card-footer">
                             <button type="button" class="btn btn-primary">Order Now >></button>
                         </div>
                     </div>
@@ -205,7 +222,20 @@
             </div>
         </section>
 
+        <!-- Last section -->
 
+        <section id="subscriber" style="height: 300px;" class="d-flex justify-content-center align-items-center mt-5 panda-sale">
+            <div>
+                <h2>LET'S STAY IN TOUCH</h2>
+                <h5>Get updates on sales, specials and more</h5>
+                <input class="form-control mb-3" type="text" placeholder="Enter your E-mail address...">
+                <button class="btn btn-primary" type="submit"> Submit</button>
+            </div>
+        </section>
+
+        <footer class="text-center mt-5">
+            <small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small>
+        </footer>
 
     </main>
 
